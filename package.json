@@ -1,0 +1,44 @@
+{
+  "name": "how-much-cli",
+  "version": "0.1.0",
+  "description": "Get the currency conversion of an exchange rate through the command-line",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "currency",
+    "conversion",
+    "exchange",
+    "rates",
+    "money"
+  ],
+  "bugs": "https://github.com/alebelcor/how-much-cli/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "main": "cli.js",
+  "bin": {
+    "how-much": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/how-much-cli.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "how-much": "^0.1.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "execa": "^0.4.0"
+  },
+  "preferGlobal": true
+}
