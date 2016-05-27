@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/how-much-cli.svg)](https://npmjs.org/package/how-much-cli)
 [![Build Status](https://img.shields.io/travis/alebelcor/how-much-cli/master.svg)](https://travis-ci.org/alebelcor/how-much-cli)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/how-much-cli.svg)](https://coveralls.io/github/alebelcor/how-much-cli)
 
 ## Install
 
