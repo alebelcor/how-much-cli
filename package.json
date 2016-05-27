@@ -30,7 +30,8 @@
     "url": "https://github.com/alebelcor/how-much-cli.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "how-much": "^0.1.0",
@@ -38,7 +39,9 @@
   },
   "devDependencies": {
     "ava": "^0.15.1",
-    "execa": "^0.4.0"
+    "coveralls": "^2.11.9",
+    "execa": "^0.4.0",
+    "nyc": "^6.4.4"
   },
   "preferGlobal": true
 }
